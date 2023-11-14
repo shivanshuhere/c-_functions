@@ -25,5 +25,7 @@ public:
 int main()
 {
     Car car1("12445", "Fortuner", 1000000000);
+    cout << endl;
+    Car car2("191219", "Audi", 100404050);
     return 0;
 }
