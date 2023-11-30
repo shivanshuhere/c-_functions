@@ -15,6 +15,6 @@ void wishDiwali(int times) // No return and with Argument Value
 
 int main()
 {
-    wishDiwali(120);
+    wishDiwali(4);
     return 0;
 }
