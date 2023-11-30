@@ -4,7 +4,7 @@ using namespace std;
 
 int sq(int x)
 {
-    return x;
+    return x * x;
 }
 float sq(float x)
 {
@@ -32,8 +32,8 @@ int main()
     a = sq(flo);
     a = sq(dou);
     cout << "sq of int is :" << a << endl;
-    cout << "sq of  is :" << b << endl;
-    cout << "sq of  is :" << c << endl;
+    cout << "sq of float is :" << b << endl;
+    cout << "sq of double is :" << c << endl;
 
     return 0;
 }
